@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(183, 243, 243);
+  width: 100%;
+}
+* {
+  margin: 1%;
+  padding: 1%;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+}
+
+button {
+  margin: 1%;
+  padding: 1%;
+  width: 50%;
+
+  border-radius: 50%;
+}
+
+button:hover {
+  border: 3px solid #000;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.content-half {
+  width: 40%;
+  margin: 0 0 0 0;
+}
+
+.vertical-box {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+.container {
+  margin: 2% auto 2% auto;
+  padding: 1%;
+  border: 2px solid rgb(12, 176, 252);
+  background-color: azure;
+  box-shadow: 2px 2px 5px grey;
+  width: 50%;
+}
